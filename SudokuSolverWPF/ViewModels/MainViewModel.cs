@@ -64,7 +64,7 @@ namespace SudokuSolverWPF.ViewModels
                 _statusColor = value;
                 OnPropertyChanged(nameof(StatusColor));
             }
-        }
+        } 
 
         public ICommand SolveCommand { get; }
         public ICommand ClearCommand { get; }
